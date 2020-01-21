@@ -4,18 +4,20 @@
 using namespace std;
 
 //[Missing Code 1] Write definition of the function findGrade() here.
-char findGrade(int x){
+char findGrade(float x){
+	char y;
     if(x > 90){
-        cout << 'A';    
+        y = 'A';    
     }else if(x > 75){
-        cout << 'B';
+        y = 'B';
     }else if(x > 60){
-        cout << 'C';
+        y = 'C';
     }else if(x > 45){
-        cout << 'D';
+        y = 'D';
     }else{
-        cout << 'F';
+        y = 'F';
 	}
+	return y;
 }
 
 int main(){
