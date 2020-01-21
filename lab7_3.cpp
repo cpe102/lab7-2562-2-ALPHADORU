@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    int age ,H ,M ;
+    int age ,H ,M;
     cout << "Enter age: ";
     cin >> age;
     if(age <= 20){
